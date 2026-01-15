@@ -1,0 +1,17 @@
+[project]
+name = "posthog-digest"
+version = "0.1.0"
+description = "Daily PostHog analytics digest sent via Discord DM"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp>=3.9.0",
+    "discord-py>=2.3.0",
+    "tenacity>=8.2.0",
+]
+
+[project.scripts]
+posthog-digest = "main:cli"
+
+[tool.uv]
+dev-dependencies = []

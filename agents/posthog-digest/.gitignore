@@ -9,6 +9,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
+.python-version
 
 # Environment variables (secrets)
 .env
