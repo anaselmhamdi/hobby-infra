@@ -3,6 +3,10 @@ import asyncio
 import logging
 import sys
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from config import Config
 from discord_client import DiscordClient
 from formatters import format_digest
