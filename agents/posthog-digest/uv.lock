@@ -520,9 +520,6 @@ requires-dist = [
     { name = "tenacity", specifier = ">=8.2.0" },
 ]
 
-[package.metadata.requires-dev]
-dev = []
-
 [[package]]
 name = "propcache"
 version = "0.4.1"
